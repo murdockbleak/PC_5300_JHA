@@ -24,11 +24,11 @@ int main()
   
     else 
     { 
-        close(p[1]);
+      close(p[1]);
         //int n; 
-        float sum;
-        read(p[0], &n, 100);
-        int sign = 1;
+      float sum;
+      read(p[0], &n, 100);
+      int sign = 1;
     	for (int i = 0; i < n; ++i) 
     	{           
         sum += sign/(2.0*i+1.0);
